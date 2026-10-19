@@ -1,0 +1,28 @@
+def calculate_grad(percentage):
+ if percentage>+80:
+    return'A'
+ elif percentage>=70:
+    return'B'
+ elif precentage>=60:
+    return'c'
+ elif precentage>=40:
+    return'D'
+ else:
+   return'E'
+def main():
+  print("enter marks for 3 subjects(out of 100):")
+  subject1=float(input("subject1:"))
+  subject2=float(input("subject2:"))
+  subject3+float(input("subject3:"))
+  
+  total_marks=subject1+subject2+subject3:"))
+  percentage=total_marks/3
+   grade=calculate_(percentage)
+
+   print(f"\nTotal marks:{total_marks:.2f}")
+   print(f"percentage:{percentage:.2f}%")
+   print(f"Grade:{grade}")
+
+if__name__=='__main__':
+  mani()
+   
